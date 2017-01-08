@@ -10,7 +10,7 @@ module LedController
     def execute_command(command)
       @serial.write(command)
       debug_frame(command, true)
-      sleep(0.05)
+      sleep(0.5)
       response = @serial.read(512)
       debug_frame(response)
       response

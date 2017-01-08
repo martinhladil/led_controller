@@ -1,0 +1,10 @@
+---
+:channel_1: 0 # 0-100
+:channel_2: 0 # 0-100
+:channel_3: 0 # 0-100
+:channel_4: 0 # 0-100
+:relay_1: false
+:relay_2: false
+:led_usb: false
+:led_external: false
+:led_manual: false

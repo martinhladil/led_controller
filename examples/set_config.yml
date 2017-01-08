@@ -1,0 +1,215 @@
+---
+:model_code: 0 # 0
+:channels:
+- :mode: :white # :not_used, :white, :blue, :red, :yellow
+  :points:
+  - :hour: 1 # 0-23
+    :minute: 0 # 0-59
+    :value: 0 # 0-100
+  - :hour: 3
+    :minute: 0
+    :value: 0
+  - :hour: 5
+    :minute: 0
+    :value: 0
+  - :hour: 7
+    :minute: 0
+    :value: 20
+  - :hour: 9
+    :minute: 0
+    :value: 40
+  - :hour: 11
+    :minute: 0
+    :value: 40
+  - :hour: 13
+    :minute: 0
+    :value: 40
+  - :hour: 15
+    :minute: 0
+    :value: 40
+  - :hour: 17
+    :minute: 0
+    :value: 20
+  - :hour: 19
+    :minute: 0
+    :value: 0
+  - :hour: 21
+    :minute: 0
+    :value: 0
+  - :hour: 23
+    :minute: 0
+    :value: 0
+- :mode: :blue
+  :points:
+  - :hour: 1
+    :minute: 0
+    :value: 0
+  - :hour: 3
+    :minute: 0
+    :value: 0
+  - :hour: 5
+    :minute: 0
+    :value: 20
+  - :hour: 7
+    :minute: 0
+    :value: 40
+  - :hour: 9
+    :minute: 0
+    :value: 60
+  - :hour: 11
+    :minute: 0
+    :value: 60
+  - :hour: 13
+    :minute: 0
+    :value: 60
+  - :hour: 15
+    :minute: 0
+    :value: 60
+  - :hour: 17
+    :minute: 0
+    :value: 40
+  - :hour: 19
+    :minute: 0
+    :value: 20
+  - :hour: 21
+    :minute: 0
+    :value: 0
+  - :hour: 23
+    :minute: 0
+    :value: 0
+- :mode: :blue
+  :points:
+  - :hour: 1
+    :minute: 0
+    :value: 0
+  - :hour: 3
+    :minute: 0
+    :value: 0
+  - :hour: 5
+    :minute: 0
+    :value: 0
+  - :hour: 7
+    :minute: 0
+    :value: 0
+  - :hour: 9
+    :minute: 0
+    :value: 0
+  - :hour: 11
+    :minute: 0
+    :value: 60
+  - :hour: 13
+    :minute: 0
+    :value: 80
+  - :hour: 15
+    :minute: 0
+    :value: 60
+  - :hour: 17
+    :minute: 0
+    :value: 0
+  - :hour: 19
+    :minute: 0
+    :value: 0
+  - :hour: 21
+    :minute: 0
+    :value: 0
+  - :hour: 23
+    :minute: 0
+    :value: 0
+- :mode: :white
+  :points:
+  - :hour: 1
+    :minute: 0
+    :value: 0
+  - :hour: 3
+    :minute: 0
+    :value: 0
+  - :hour: 4
+    :minute: 0
+    :value: 0
+  - :hour: 6
+    :minute: 0
+    :value: 20
+  - :hour: 8
+    :minute: 0
+    :value: 50
+  - :hour: 10
+    :minute: 0
+    :value: 50
+  - :hour: 12
+    :minute: 0
+    :value: 50
+  - :hour: 14
+    :minute: 0
+    :value: 50
+  - :hour: 16
+    :minute: 0
+    :value: 50
+  - :hour: 18
+    :minute: 0
+    :value: 20
+  - :hour: 20
+    :minute: 0
+    :value: 0
+  - :hour: 23
+    :minute: 0
+    :value: 0
+:relays:
+- :mode: :used # :not_used, :used
+  :points:
+  - :hour: 2
+    :minute: 0
+    :value: 0
+  - :hour: 6
+    :minute: 0
+    :value: 0
+  - :hour: 10
+    :minute: 0
+    :value: 0
+  - :hour: 14
+    :minute: 0
+    :value: 0
+  - :hour: 18
+    :minute: 0
+    :value: 0
+  - :hour: 22
+    :minute: 0
+    :value: 0
+- :mode: :used
+  :points:
+  - :hour: 2
+    :minute: 0
+    :value: 0
+  - :hour: 6
+    :minute: 0
+    :value: 0
+  - :hour: 10
+    :minute: 0
+    :value: 0
+  - :hour: 14
+    :minute: 0
+    :value: 0
+  - :hour: 18
+    :minute: 0
+    :value: 0
+  - :hour: 22
+    :minute: 0
+    :value: 0
+:working_mode: :artificial # :artificial, :natural
+:clouds: 0 # 0-100
+:storms: 0 # 0-100
+:natural_maximum:
+  :hour: 12  # 0-23 (natural working mode only)
+  :minute: 0 # 0-59 (natural working mode only)
+  :value: 100 # 0-100 (natural working mode only)
+:latitude: 0 # 0-90 (natural working mode only)
+:longitude: 0 # 0-180 (natural working mode only)
+:storms_natural: 0 # 0-100 (natural working mode only)
+:moon_day: 28 # 1-31 (when moon is true)
+:moon_selected_day: 8 # 1-31 (when moon is true)
+:moon_selected_month: 1 # 1-12 (when moon is true)
+:moon: false # true/false
+:moon_value: 0 # 0/100
+:general_filter: 0 # 0-100
+:white_filter: 0 # 0-100 (natural working mode only)
+:blue_filter: 0 # 0-100 (natural working mode only)
+:depth_filter: 10 # 0-200 (natural working mode only)
